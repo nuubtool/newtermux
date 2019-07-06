@@ -21,7 +21,7 @@ W = "\x1b[0m"
 R = "\x1b[31m"
 G = "\x1b[1;32m"
 O = "\x1b[33m"
-B = "\x1b[34m"
+B = "\x1b[34m"d
 P = "\x1b[35m"
 C = "\x1b[36m"
 GR = "\x1b[37m"
@@ -32,17 +32,12 @@ def slowprints(s):
         time.sleep(2.0/90)
 
 os.system("clear")
-semut=(gt+"""
- #####  ####### #     # #     # ####### 
-#     # #       ##   ## #     #    #    
-#       #       # # # # #     #    #    
- #####  #####   #  #  # #     #    #    
-      # #       #     # #     #    #    
-#     # #       #     # #     #    #    
- #####  ####### #     #  #####     #    
+nuubz=(gt+"""
+ =================================
+ NUUBZ
  =================================
 """)
-slowprints(semut)
+slowprints(nuubz)
 print(gt+"")
 input('\nPress enter to continue...')
 sleep(2)
